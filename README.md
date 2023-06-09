@@ -1,6 +1,5 @@
 # ASCOOS CMS Snippets
 
-![ASCOOS CMS LOGO](https://www.ascoos.com/images/ascoos.png "aSCOOS CMS")
 
 ## Description
 
