@@ -1,6 +1,3 @@
-# vsc-ascoos-cms-snippets
-VSCode Snippets for ASCOOS CMS 
-
 # ASCOOS CMS Snippets
 
 ![ascoos-snippet-logo](https://www.ascoos.com/images/ascoos.png)
