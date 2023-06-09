@@ -116,11 +116,11 @@ Function                        | Version | Purpose
 `init`                          |  0.0.1  | 
 `done`                          |  0.0.1  | 
 `removeMetaData`                |  0.0.1  | We remove and release a meta tag from the list.
-`addStyleFromFile`              |  0.0.1  | Adds a linked stylesheet to the page
-`addStylesFromFile`             |  0.0.1  | Adds a linked stylesheet to the page
-`addTypographyStyles`           |  0.0.1  | Adds a linked typo stylesheet to the page
-`addStyle`                      |  0.0.1  | Adds a stylesheet declaration to the page
-`addImportStyle`                |  0.0.1  | Adds a linked stylesheet to the page
+`addStyleFromFile`              |  0.0.1  | Add a linked stylesheet to the page
+`addStylesFromFile`             |  0.0.1  | Adds a linkeds stylesheets to the page
+`addTypographyStyles`           |  0.0.1  | Adds a linkeds typo stylesheets to the page
+`addStyle`                      |  0.0.1  | Add a stylesheet declaration to the page
+`addImportStyle`                |  0.0.1  | Add a linked stylesheet to the page
 `addScriptFromFile`             |  0.0.1  | 
 `addScriptFromCDN`              |  0.0.1  | 
 `addScript`                     |  0.0.1  | 
@@ -139,11 +139,11 @@ Function                        | Version | Purpose
 `writeScriptFiles`              |  0.0.1  | 
 `writeCombinedScriptFiles`      |  0.0.1  | 
 `writeDefScripts`               |  0.0.1  | 
-`writeJAScripts`                |  0.0.1  | Γράφει τα jAscoos και τα jQuery javascripts στο τέλος της σελίδας.... μαζεμένα...
+`writeJAScripts`                |  0.0.1  | Writes the jAscoos and jQuery javascripts at the bottom of the page.... bundled...
 `writeCustomHead`               |  0.0.1  | 
 `dynamicLoadScript`             |  0.0.1  | 
-`getName`                       |  0.0.1  | Παίρνουμε το το όνομα ή τίτλο από ένα πεδίο Text
-`setOffline`                    |  0.0.1  | Θέτει εκτός λειτουργία ή επναφέρει σε λειτουργία το frontend του ιστοχώρου.
+`getName`                       |  0.0.1  | We get the name or title from a Text field
+`setOffline`                    |  0.0.1  | Takes offline or restarts the frontend of the website.
 `writeDocType`                  |  0.0.1  | 
 `headDOCInfo`                   |  0.0.1  | 
 `startHead`                     |  0.0.1  | 
@@ -200,7 +200,7 @@ Function                        | Version | Purpose
 
 Function                        | Version | Purpose
 ------------------------------- | ------- | --------------------------------------------------------------------------
-`setExcludeStrip`               |  0.0.1  | Δηλώνουμε ποιες ετικέτες θα αφαιρέσουμε από το κείμενο
+`setExcludeStrip`               |  0.0.1  | We declare which tags to remove from the text
 `get`                           |  0.0.1  | 
 `getCurrent`                    |  0.0.1  | 
 `removeKey`                     |  0.0.1  | 
@@ -214,4 +214,4 @@ Function                        | Version | Purpose
 `addError`                      |  0.0.1  | 
 `getErrorsFromSession`          |  0.0.1  | 
 `setErrorsInSession`            |  0.0.1  | 
-`SOL`                           |  0.0.1  | Εμφάνιση του πλαισίου που ενημερώνει ότι ο ιστοχώρος είναι offline βάσει λάθους στην Βάση Δεδομένων.
+`SOL`                           |  0.0.1  | It informs that the website is offlineΔεδομένων.
