@@ -33,11 +33,6 @@ While it should not override any files during this process, I'm not giving any g
 
 AGL-F (ASCOOS General License - Free)
 
-***
-
-## Download
-
-[VSIX Package](https://dl.ascoos.com/vscode/vsc-ascoos-cms-snippets.vsix)
 
 ***
 
