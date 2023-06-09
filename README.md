@@ -6,7 +6,7 @@ These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
 
 ***
 
-# ASCOOS CMS Snippets
+# Snippets
 
 ## Snippet Prefixes
 
