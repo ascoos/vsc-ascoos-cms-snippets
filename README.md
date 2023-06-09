@@ -5,7 +5,7 @@
 
 These is ASCOOS CMS snippets and code examples for Visual Studio Code.
 
-All code snippets are based on and follow the Ascoos CMS guide <https://docs.ascoos.com>
+All code snippets are based on and follow the [Ascoos CMS Documantation](https://docs.ascoos.com)
 
 ## Download
 
