@@ -10,7 +10,7 @@ All code snippets are based on and follow the Ascoos CMS guide <https://docs.asc
 
 ## Download
 
-[VSIX Package] (https://dl.ascoos.com/vscode/vsc-ascoos-cms-snippets.vsix)
+[VSIX Package](https://dl.ascoos.com/vscode/vsc-ascoos-cms-snippets.vsix)
 
 .
 
