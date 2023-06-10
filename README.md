@@ -1,5 +1,7 @@
 # ASCOOS CMS Snippets
 
+![ascoos-snippets](https://dl.ascoos.com/vscode/images/vsix.gif)
+
 ## Description
 
 These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
