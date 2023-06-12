@@ -1,3 +1,5 @@
+<p align="center"><img src="https://dl.ascoos.com/images/ascoos.png" height=120 /></p>
+
 # ASCOOS CMS Snippets
 
 ![ascoos-snippets](https://dl.ascoos.com/vscode/images/vsix.gif)
