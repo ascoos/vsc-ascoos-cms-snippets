@@ -10,6 +10,9 @@ These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
 
 ***
 
+<p align="center"><img src="https://dl.ascoos.com/vscode/images/vsix.gif" /></p>
+
+***
 # Snippets
 
 ## Snippet Prefixes
