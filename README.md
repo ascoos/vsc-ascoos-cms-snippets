@@ -12,15 +12,15 @@ These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
 
 ## Snippet Prefixes
 
-| Prefix   | Description 
-| -------- | ------------------------------------------
-| `a-`     | General Snippets
-| `act-`   | ASCOOS Snippet Templates for codes
-| `a-c-`   | Consts Snippets
-| `a-d-`   | Defines Snippets
-| `a-f-`   | Functions Snippets
-| `a-i-`   | Information & Comments Snippets
-| `a-v-`   | Variables Snippets
-| `a-o-`   | Objects Implementation Snippets
-| `a-css-` | Ascoos CSS Snippets
-| `jas-`   | jAscoos Library Snippets (Javascript)
+| Prefix   | Completes                                                  | Description 
+| -------- | ---------------------------------------------------------- | -------------------------
+| `a-`     | ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
+| `act-`   | ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
+| `a-c-`   | ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 1%      | Consts Snippets
+| `a-d-`   | ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 1%      | Defines Snippets
+| `a-f-`   | □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 0%      | Functions Snippets
+| `a-i-`   | ■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 10%     | Information & Comments Snippets
+| `a-v-`   | ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 1%      | Variables Snippets
+| `a-o-`   | ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 2%      | Objects Implementation Snippets
+| `a-css-` | □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 0%      | Ascoos CSS Snippets
+| `jas-`   | □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ 0%      | jAscoos Library Snippets (Javascript)
