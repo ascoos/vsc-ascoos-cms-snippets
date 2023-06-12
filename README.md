@@ -13,7 +13,7 @@ These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
 # Snippets
 
 ## Snippet Prefixes
-| Prefix   | Completes                    | Description 
+| Prefix   | Complete                     | Description 
 | -------- | ---------------------------- | -------------------------
 | `a-`     | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
 | `act-`   | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
