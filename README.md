@@ -28,3 +28,22 @@ These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
 | `a-o-`   | ■□□□□□□□□□□□□□□□□□□□ 2%      | Objects Implementation Snippets
 | `a-css-` | □□□□□□□□□□□□□□□□□□□□ 0%      | Ascoos CSS Snippets
 | `jas-`   | □□□□□□□□□□□□□□□□□□□□ 0%      | jAscoos Library Snippets (Javascript)
+
+***
+
+## COMMENTS & INFORMATIONS   [ `a-i-` ]
+
+Snippet                                  | Purpose                                    
+---------------------------------------- | -------------------------------------------------------
+`a-i-comments-file-info`                 | Add informations for this ASCOOS file.
+
+***
+
+## CONSTANDS - DEFINES
+
+Snippet                                  | Type          | Purpose                                    
+---------------------------------------- | ------------- | --------------------------------------------------------
+`ADMIN_SIDE`                             | BOOLEAN       | Contains the Administration Side of the website.
+`ASCOOS_PROGRAM_NAME`                    | STRING        | Contains the official name of the program
+
+***
