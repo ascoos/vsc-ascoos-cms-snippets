@@ -10,7 +10,7 @@ These is Visual Studio Code snippets and code examples, for the ASCOOS CMS.
 
 ***
 
-<p align="center"><img src="https://dl.ascoos.com/vscode/images/vsix.gif" width=640 /></p>
+<p align="center"><img src="https://dl.ascoos.com/vscode/images/vsix.gif" width=640 height=480 /></p>
 
 ***
 # Snippets
