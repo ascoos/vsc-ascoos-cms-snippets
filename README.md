@@ -39,7 +39,7 @@ Snippet                                  | Purpose
 
 ***
 
-## CONSTANDS - DEFINES
+## CONSTANTS - DEFINES
 
 Snippet                                  | Type          | Purpose                                    
 ---------------------------------------- | ------------- | --------------------------------------------------------
