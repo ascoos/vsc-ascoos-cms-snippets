@@ -39,6 +39,14 @@ Snippet                                  | Purpose
 
 ***
 
+## CODE TEMPLATES
+
+Snippet                                  | Purpose                                    
+---------------------------------------- | --------------------------------------------------------
+`act-install-file`                       | Add code template for ASCOOS install file.
+
+***
+
 ## CONSTANTS - DEFINES
 
 Snippet                                  | Type          | Purpose                                    
@@ -47,3 +55,14 @@ Snippet                                  | Type          | Purpose
 `ASCOOS_PROGRAM_NAME`                    | STRING        | Contains the official name of the program
 
 ***
+
+## $objInstaller   [ `Installer Class` ]
+
+It is the main object for the installation/uninstall operation of the various components of Ascoos CMS, such as Apps, Blocks, Themes, Plugins, etc.
+
+Constants                      | Type      | Purpose                                    
+------------------------------ | --------- | --------------------------------------------------------
+`INS_SYSTEM`                   | INTEGER   | Installation of ASCOOS CMS system components.
+`INS_SYSTEM_APP`               | INTEGER   | Install System Program (CANNOT UNINSTALL).
+`INS_USER_APP`                 | INTEGER   | User program installation (CAN BE UNINSTALL).
+`INS_BLOCK`                    | INTEGER   | Install Block
