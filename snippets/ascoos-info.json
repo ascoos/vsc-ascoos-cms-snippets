@@ -1,0 +1,49 @@
+{
+  "Add ASCOOS CMS Information File ": {
+    "prefix": "a-i-comments-file-info",
+    "description": "Add informations for this ASCOOS file.",
+    "body": [
+		"/**",
+		" *",
+ 		" *   __ _  ___  ___ ___   ___   ___     ____ _ __ ___   ___",
+ 		" *  / _` |/  / / __/ _ \\ / _ \\ /  /    / __/| '_ ` _ \\ /  /",
+ 		" * | (_| |\\  \\| (_| (_) | (_) |\\  \\   | (__ | | | | | |\\  \\",
+ 		" *  \\__,_|/__/ \\___\\___/ \\___/ /__/    \\___\\|_| |_| |_|/__/",
+ 		" *",
+ 		" *",
+ 		" ********************************************************************",
+ 		" * @ Project ASCOOS                                                 *",
+ 		" * @ Copyright (C) 2007 - $CURRENT_YEAR AlexSoft Software.                   *",
+ 		" * @ Creator: Drogidis Christos                                     *",
+ 		" * @ ASCOOS CMS Site: www.ascoos.com                                *",
+ 		" * @ Creator Site: www.alexsoft.gr                                  *",
+ 		" * @ email: support@ascoos.com                                      *",
+ 		" * @ license site: http://docs.ascoos.com/lics/ascoos/AGL.html      *",
+ 		" * @ Copyrighted Commercial Software                                *",
+ 		" * @ Program ASCOOS CMS Manager                                     *",
+ 		" ********************************************************************",
+ 		" *",
+ 		" * @ Package           : ASCOOS CMS - ${1:Package DEscription}",
+ 		" * @ Subpackage        : ${2:Subpackage Description} ",
+ 		" * @ ASCOOS Version    : 24' - 1.0.0",
+ 		" * @ File Name         : $TM_DIRECTORY/${3:Filename}.php",
+		" * @ File No.          : ${4:???} - \\$release: ${5:1.0} - \\$revision: ${6:0} - \\$build ${7:0}",
+		" * @ Created Date      : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND UTC+3",
+		" * @ Updated Date      : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND UTC+3",
+ 		" * @ Author            : Drogidis Christos",
+ 		" * @ Author email      : webmaster@alexsoft.gr",
+ 		" * @ Author website    : www.alexsoft.gr",
+ 		" *",
+ 		" */",	
+		" ",
+		" ",
+		"defined (\"ALEXSOFT_RUN_CMS\") or die(\"Prohibition of Access.\");",
+		" ",
+		" ",
+		"${0:} "
+
+	]
+  }
+
+
+}
