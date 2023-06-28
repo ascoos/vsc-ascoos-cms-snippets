@@ -1,0 +1,9 @@
+{
+  "a - Define the CMS execution variable.": {
+    "prefix": "a-gv-def-run-cms",
+    "description": "Define the CMS execution variable..",
+    "body": [
+      "defined (\"ALEXSOFT_RUN_CMS\") or die(\"Prohibition of Access.\");"
+    ]
+  }
+}
