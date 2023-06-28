@@ -202,7 +202,7 @@ Function                        | Version | Purpose
 `extractThemes`                 |  0.0.1  | We move the internal folder with the themes to the final folder
 `getOrderPosition`              |  0.0.1  | We take the sort order for the new extension based on the display position.
 `getPath`                       |  0.0.1  | Returns the actual path of the component that is to be installed or uninstalled.
-`getPosition`                   |  0.0.1  | We take the position id, show called "article_details"
+`getPosition`                   |  0.0.1  | We get the ID of the position where the installed extension will appear.
 `getType`                       |  0.0.1  | We get the type of extension managed by the installation object
 `installData`                   |  0.0.1  | We install the components of the extension.
 `isInstalled`                   |  0.0.1  | Returns a reasonable value. TRUE = The path exists, FALSE = Does not exist
