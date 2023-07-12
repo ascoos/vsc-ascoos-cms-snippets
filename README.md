@@ -76,7 +76,7 @@ In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** 
 
 | Prefix   | Completes                    | Description 
 | -------- | ---------------------------- | -------------------------
-| **`***`**    | ■■■■■■■■□□□□□□□□□□□□ 40%     | Information & Comments Snippets
+| **`///`**    | ■■■■■■■■□□□□□□□□□□□□ 40%     | Information & Comments Snippets
 | **`php`**    | ■■■■□□□□□□□□□□□□□□□□ 20%     | Create php tag with Information Comments
 | **`alf_`**   | ■■□□□□□□□□□□□□□□□□□□ 10%     | Ascoos Library Function (ALF) Snippets
 | **`a-g-`**   | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
