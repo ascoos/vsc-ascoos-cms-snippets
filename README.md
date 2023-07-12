@@ -74,7 +74,7 @@ While it should not override any files during this process, I'm not giving any g
 
 In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** as well as their implementation rate in the current version of this extension of **`Visual Studio Code`**
 
-| Prefix   | Completes                    | Description 
+| Prefix   | Complete                     | Description 
 | -------- | ---------------------------- | -------------------------
 | **`///`**    | ■■■■■■■■□□□□□□□□□□□□ 40%     | Information & Comments Snippets
 | **`php`**    | ■■■■□□□□□□□□□□□□□□□□ 20%     | Create php tag with Information Comments
