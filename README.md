@@ -72,36 +72,68 @@ While it should not override any files during this process, I'm not giving any g
 
 ## Snippet Prefixes
 
+In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** as well as their implementation rate in the current version of this extension of **`Visual Studio Code`**
+
 | Prefix   | Completes                    | Description 
 | -------- | ---------------------------- | -------------------------
-| `a-`     | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
-| `act-`   | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
-| `a-c-`   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Consts Snippets
-| `a-d-`   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Defines Snippets
-| `a-f-`   | □□□□□□□□□□□□□□□□□□□□ 0%      | Functions Snippets
-| `a-i-`   | ■■□□□□□□□□□□□□□□□□□□ 10%     | Information & Comments Snippets
-| `a-v-`   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Variables Snippets
-| `a-o-`   | ■□□□□□□□□□□□□□□□□□□□ 2%      | Objects Implementation Snippets
-| `a-css-` | □□□□□□□□□□□□□□□□□□□□ 0%      | Ascoos CSS Snippets
-| `jas-`   | □□□□□□□□□□□□□□□□□□□□ 0%      | jAscoos Library Snippets (Javascript)
+| **`***`**    | ■■■■■■■■□□□□□□□□□□□□ 40%     | Information & Comments Snippets
+| **`php`**    | ■■■■□□□□□□□□□□□□□□□□ 20%     | Create php tag with Information Comments
+| **`alf_`**   | ■■□□□□□□□□□□□□□□□□□□ 10%     | Ascoos Library Function (ALF) Snippets
+| **`a-g-`**   | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
+| **`act-`**   | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
+| **`a-c-`**   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Consts Snippets
+| **`a-d-`**   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Defines Snippets
+| **`a-f-`**   | □□□□□□□□□□□□□□□□□□□□ 0%      | Functions Snippets
+| **`a-v-`**   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Variables Snippets
+| **`a-o-`**   | ■□□□□□□□□□□□□□□□□□□□ 2%      | Objects Implementation Snippets
+| **`a-css-`** | □□□□□□□□□□□□□□□□□□□□ 0%      | Ascoos CSS Snippets
+| **`jas-`**   | □□□□□□□□□□□□□□□□□□□□ 0%      | jAscoos Library Snippets (Javascript)
 
-<BR>
-
-***
-
-<BR>
-
-## COMMENTS & INFORMATIONS   [ `a-i-` ]
-
-Snippet                                  | Purpose                                    
----------------------------------------- | -------------------------------------------------------
-`a-i-comments-file-info`                 | Add informations for this ASCOOS file.
-
-<BR>
+<br>
 
 ***
 
-<BR>
+<br>
+
+## COMMENTS & INFORMATIONS   [ `***` ]
+
+All ASCOOS CMS comment snippets are generated using the keyword [///] inside a php file.
+
+[Documantation for this snippets](https://docs.ascoos.com/vscode/comment-snippets.html)
+
+ Prefix  |      Alternative Prefix       | Purpose                                    
+-------- | ----------------------------- | ----------------------------------------
+  `///`  | `a-i-comments-file-info`      | Add file comment.
+  `///`  | `a-i-comments-functions-info` | Add function comment.
+  `///`  | `a-i-comments-variables-info` | Add Variable (var or property) comment.
+
+<br>
+
+***
+
+<br>
+
+## GENERAL   [ `a-g-` ]
+
+[Documantation for general snippets](https://docs.ascoos.com/vscode/general-snippets.html)
+
+Snippet                             | Purpose                                    
+----------------------------------- | -------------------------------------------------------
+`a-g-add-define-run-cms`            | Add define the ASCOOS CMS execution variable
+`a-g-new-class`                     | Add class.
+`a-g-new-interface`                 | Add interface.
+`a-g-new-function`                  | Add public function.
+`a-g-new-class-method-private`      | Add private method.
+`a-g-new-class-method-puplic`       | Add puplic method.
+`a-g-new-class-property-private`    | Add private property in class.
+`a-g-new-class-property-public`     | Add public property in class.
+`a-g-new-global-constant`           | Add global constant
+
+<br>
+
+***
+
+<br>
 
 ## CODE TEMPLATES
 
