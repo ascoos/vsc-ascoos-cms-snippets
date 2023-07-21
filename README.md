@@ -30,21 +30,21 @@ While it should not override any files during this process, I'm not giving any g
 
 [AGL-F (ASCOOS General License - Free)](http://docs.ascoos.com/lics/ascoos/AGL-F.html)
 
-<BR>
+<br>
 
 ***
 
-<BR>
+<br>
 
 ## Download
 
-[VSIX Package](https://dl.ascoos.com/vscode/vsc-ascoos-cms-snippets.vsix)
+[VSIX Package](https://dl.ascoos.com/vscode/ascoos-cms/vsc-ascoos-cms-snippets.vsix)
 
-<BR>
+<br>
 
 ***
 
-<BR>
+<br>
 
 # Installation
 
@@ -62,11 +62,11 @@ While it should not override any files during this process, I'm not giving any g
 1. Enter the following 'ext install...' command and select: 'EXTENSIONS: Install drom VSIX'
 1. Reload Visual Studio Code
 
-<BR>
+<br>
 
 ***
 
-<BR>
+<br>
 
 # ASCOOS CMS Snippets
 
@@ -77,7 +77,6 @@ In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** 
 |    Prefix     | Complete                     | Description 
 | ------------- | ---------------------------- | -------------------------
 | **`@ OR @@`** | ■■■■■■■■■■■■□□□□□□□□ 60%     | Information & Comments Snippets
-| **`php`**     | ■■■■□□□□□□□□□□□□□□□□ 20%     | Create php tag with Information Comments
 | **`alf_`**    | ■■□□□□□□□□□□□□□□□□□□ 10%     | Ascoos Library Function (ALF) Snippets
 | **`a-g-`**    | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
 | **`act-`**    | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
