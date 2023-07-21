@@ -74,20 +74,20 @@ While it should not override any files during this process, I'm not giving any g
 
 In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** as well as their implementation rate in the current version of this extension of **`Visual Studio Code`**
 
-| Prefix   | Complete                     | Description 
-| -------- | ---------------------------- | -------------------------
-| **`///`**    | ■■■■■■■■□□□□□□□□□□□□ 40%     | Information & Comments Snippets
-| **`php`**    | ■■■■□□□□□□□□□□□□□□□□ 20%     | Create php tag with Information Comments
-| **`alf_`**   | ■■□□□□□□□□□□□□□□□□□□ 10%     | Ascoos Library Function (ALF) Snippets
-| **`a-g-`**   | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
-| **`act-`**   | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
-| **`a-c-`**   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Consts Snippets
-| **`a-d-`**   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Defines Snippets
-| **`a-f-`**   | □□□□□□□□□□□□□□□□□□□□ 0%      | Functions Snippets
-| **`a-v-`**   | ■□□□□□□□□□□□□□□□□□□□ 1%      | Variables Snippets
-| **`a-o-`**   | ■□□□□□□□□□□□□□□□□□□□ 2%      | Objects Implementation Snippets
-| **`a-css-`** | □□□□□□□□□□□□□□□□□□□□ 0%      | Ascoos CSS Snippets
-| **`jas-`**   | □□□□□□□□□□□□□□□□□□□□ 0%      | jAscoos Library Snippets (Javascript)
+|    Prefix     | Complete                     | Description 
+| ------------- | ---------------------------- | -------------------------
+| **`@ OR @@`** | ■■■■■■■■■■■■□□□□□□□□ 60%     | Information & Comments Snippets
+| **`php`**     | ■■■■□□□□□□□□□□□□□□□□ 20%     | Create php tag with Information Comments
+| **`alf_`**    | ■■□□□□□□□□□□□□□□□□□□ 10%     | Ascoos Library Function (ALF) Snippets
+| **`a-g-`**    | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
+| **`act-`**    | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
+| **`a-c-`**    | ■□□□□□□□□□□□□□□□□□□□ 1%      | Consts Snippets
+| **`a-d-`**    | ■□□□□□□□□□□□□□□□□□□□ 1%      | Defines Snippets
+| **`a-f-`**    | □□□□□□□□□□□□□□□□□□□□ 0%      | Functions Snippets
+| **`a-v-`**    | ■□□□□□□□□□□□□□□□□□□□ 1%      | Variables Snippets
+| **`a-o-`**    | ■□□□□□□□□□□□□□□□□□□□ 2%      | Objects Implementation Snippets
+| **`a-css-`**  | □□□□□□□□□□□□□□□□□□□□ 0%      | Ascoos CSS Snippets
+| **`jas-`**    | □□□□□□□□□□□□□□□□□□□□ 0%      | jAscoos Library Snippets (Javascript)
 
 <br>
 
@@ -95,17 +95,48 @@ In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** 
 
 <br>
 
-## COMMENTS & INFORMATIONS   [ `***` ]
+## COMMENTS & INFORMATIONS   [ `@`, `@@` ]
 
-All ASCOOS CMS comment snippets are generated using the keyword [///] inside a php file.
+All ASCOOS CMS comment snippets are generated using the keywords [@] or [@@] inside a php file.
 
 [Documantation for this snippets](https://docs.ascoos.com/vscode/comment-snippets.html)
 
- Prefix  |      Alternative Prefix       | Purpose                                    
--------- | ----------------------------- | ----------------------------------------
-  `///`  | `a-i-comments-file-info`      | Add file comment.
-  `///`  | `a-i-comments-functions-info` | Add function comment.
-  `///`  | `a-i-comments-variables-info` | Add Variable (var or property) comment.
+
+|         Prefix             | Purpose                                    
+|--------------------------- | ----------------------------------------
+|  `@fixversion`             | [FIX] Fix Visual Studio Code Version Comment
+|  `@@info-file`             | Add file comment.
+|  `@@info-function`         | Add function comment.
+|  `@@info-variables`        | Add Variable (var or property) comment.
+|  `@ASCOOS-CATEGORY`        | ASCOOS CMS Comments: ASCOOS Category Implementation file
+|  `@ASCOOS-COPYRIGHT`       | ASCOOS CMS Comments: Ascoos Copyright.
+|  `@ASCOOS-CREATED`         | ASCOOS CMS Comments: Date Ascoos Cms Created.
+|  `@ASCOOS-CREATOR`         | ASCOOS CMS Comments: Ascoos Creator name.
+|  `@ASCOOS-CREATOR-EMAIL`   | ASCOOS CMS Comments: Ascoos Creator Email.
+|  `@ASCOOS-CREATOR-SITE`    | ASCOOS CMS Comments: Ascoos Creator Website.
+|  `@ASCOOS-LICENSE`         | ASCOOS CMS Comments: ASCOOS CMS License
+|  `@ASCOOS-NAME`            | ASCOOS CMS Comments: ASCOOS CMS name.
+|  `@ASCOOS-SITE`            | ASCOOS CMS Comments: Official ASCOOS CMS website.
+|  `@ASCOOS-VERSION`         | ASCOOS CMS Comments: Ascoos Cms version.
+|  `@ASCOOS-UPDATED`         | ASCOOS CMS Comments: Date Ascoos Cms Updated.
+|  `@created`                | Date Created file.
+|  `@updated`                | Date Updated file.
+|  `@license`                | License. Supported : AGL , AGL-F, AGL-E, AGL-T, Freeware, MIT, CC BY 4.0, CC BY-SA 4.0, CC BY-NC 4.0, CC BY-NC-SA 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC0 1.0
+|  `@sinceASCOOS`            | Since for ASCOOS Version.
+|  `@sincePHP`               | Since for PHP Version.
+|  `@class`                  | Class Name.
+|  `@authorSite`             | Author Website.
+|  `@authorEmail`            | Author Email.
+|  `@authorCountry`          | Author Country
+|  `@authorAddress`          | Author Address.
+|  `@authorTel`              | Author Tel Number.
+|  `@authorMobile`           | Author Mobile Number.
+|  `@translatorSite`         | Translator Website.
+|  `@translatorEmail`        | Translator Email.
+|  `@translatorCountry`      | Translator Country
+|  `@translatorAddress`      | TranslatorAddress.
+|  `@translatorTel`          | Translator Tel Number.
+|  `@translatorMobile`       | Translator Mobile Number.  
 
 <br>
 
