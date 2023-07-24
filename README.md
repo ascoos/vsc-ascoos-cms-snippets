@@ -201,6 +201,8 @@ See: [Installer Class Documentation](https://docs.ascoos.com/cms/ascoos/core.cla
 
 It is the main object for the installation/uninstall operation of the various components of Ascoos CMS, such as Apps, Blocks, Themes, Plugins, etc.
 
+![objInstaller](https://apps.ascoos.com/vscode/images/screenshot/0000000000001.png)
+
 Constants                      | Type      | Purpose                                    
 ------------------------------ | --------- | --------------------------------------------------------
 `INS_ADMIN_APP`                | INTEGER   | Install Application (In Administration - [CAN BE UNINSTALL])
