@@ -76,7 +76,7 @@ In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** 
 
 |    Prefix     | Complete                     | Description 
 | ------------- | ---------------------------- | -------------------------
-| **`@ OR @@`** | ■■■■■■■■■■■■□□□□□□□□ 60%     | Information & Comments Snippets
+| **`a-i-`** | ■■■■■■■■■■■■□□□□□□□□ 60%     | Information & Comments Snippets
 | **`alf_`**    | ■■□□□□□□□□□□□□□□□□□□ 10%     | Ascoos Library Function (ALF) Snippets
 | **`a-g-`**    | ■□□□□□□□□□□□□□□□□□□□ 5%      | General Snippets
 | **`act-`**    | ■□□□□□□□□□□□□□□□□□□□ 3%      | ASCOOS Snippet Templates for codes
@@ -94,48 +94,53 @@ In the table below you can see the prefixes of the snippets of **`Ascoos Cms`** 
 
 <br>
 
-## COMMENTS & INFORMATIONS   [ `@`, `@@` ]
+## COMMENTS & INFORMATIONS   [ `a-i-` ]
 
-All ASCOOS CMS comment snippets are generated using the keywords [@] or [@@] inside a php file.
+All ASCOOS CMS comment snippets are generated using the keywords [a-i-] inside a php file.
+
+For example, `a-i-license` will display a selection of licenses.
+
+![a-i-license](https://apps.ascoos.com/vscode/images/screenshot/0000000000002.png)
 
 [Documantation for this snippets](https://docs.ascoos.com/vscode/comment-snippets.html)
 
 
 |         Prefix             | Purpose                                    
 |--------------------------- | ----------------------------------------
-|  `@fixversion`             | [FIX] Fix Visual Studio Code Version Comment
-|  `@@info-file`             | Add file comment.
-|  `@@info-function`         | Add function comment.
-|  `@@info-variables`        | Add Variable (var or property) comment.
-|  `@ASCOOS-CATEGORY`        | ASCOOS CMS Comments: ASCOOS Category Implementation file
-|  `@ASCOOS-COPYRIGHT`       | ASCOOS CMS Comments: Ascoos Copyright.
-|  `@ASCOOS-CREATED`         | ASCOOS CMS Comments: Date Ascoos Cms Created.
-|  `@ASCOOS-CREATOR`         | ASCOOS CMS Comments: Ascoos Creator name.
-|  `@ASCOOS-CREATOR-EMAIL`   | ASCOOS CMS Comments: Ascoos Creator Email.
-|  `@ASCOOS-CREATOR-SITE`    | ASCOOS CMS Comments: Ascoos Creator Website.
-|  `@ASCOOS-LICENSE`         | ASCOOS CMS Comments: ASCOOS CMS License
-|  `@ASCOOS-NAME`            | ASCOOS CMS Comments: ASCOOS CMS name.
-|  `@ASCOOS-SITE`            | ASCOOS CMS Comments: Official ASCOOS CMS website.
-|  `@ASCOOS-VERSION`         | ASCOOS CMS Comments: Ascoos Cms version.
-|  `@ASCOOS-UPDATED`         | ASCOOS CMS Comments: Date Ascoos Cms Updated.
-|  `@created`                | Date Created file.
-|  `@updated`                | Date Updated file.
-|  `@license`                | License. Supported : AGL , AGL-F, AGL-E, AGL-T, Freeware, MIT, CC BY 4.0, CC BY-SA 4.0, CC BY-NC 4.0, CC BY-NC-SA 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC0 1.0
-|  `@sinceASCOOS`            | Since for ASCOOS Version.
-|  `@sincePHP`               | Since for PHP Version.
-|  `@class`                  | Class Name.
-|  `@authorSite`             | Author Website.
-|  `@authorEmail`            | Author Email.
-|  `@authorCountry`          | Author Country
-|  `@authorAddress`          | Author Address.
-|  `@authorTel`              | Author Tel Number.
-|  `@authorMobile`           | Author Mobile Number.
-|  `@translatorSite`         | Translator Website.
-|  `@translatorEmail`        | Translator Email.
-|  `@translatorCountry`      | Translator Country
-|  `@translatorAddress`      | TranslatorAddress.
-|  `@translatorTel`          | Translator Tel Number.
-|  `@translatorMobile`       | Translator Mobile Number.  
+|  `a-i-fixversion`             | [FIX] Fix Visual Studio Code Version Comment
+|  `a-i-info-file`             | Add file comment.
+|  `a-i-info-function`         | Add function comment.
+|  `a-i-info-variables`        | Add Variable (var or property) comment.
+|  `a-i-ASCOOS-CATEGORY`        | ASCOOS CMS Comments: ASCOOS Category Implementation file
+|  `a-i-ASCOOS-COPYRIGHT`       | ASCOOS CMS Comments: Ascoos Copyright.
+|  `a-i-ASCOOS-CREATED`         | ASCOOS CMS Comments: Date Ascoos Cms Created.
+|  `a-i-ASCOOS-CREATOR`         | ASCOOS CMS Comments: Ascoos Creator name.
+|  `a-i-ASCOOS-CREATOR-EMAIL`   | ASCOOS CMS Comments: Ascoos Creator Email.
+|  `a-i-ASCOOS-CREATOR-SITE`    | ASCOOS CMS Comments: Ascoos Creator Website.
+|  `a-i-ASCOOS-LICENSE`         | ASCOOS CMS Comments: ASCOOS CMS License
+|  `a-i-ASCOOS-NAME`            | ASCOOS CMS Comments: ASCOOS CMS name.
+|  `a-i-ASCOOS-SITE`            | ASCOOS CMS Comments: Official ASCOOS CMS website.
+|  `a-i-ASCOOS-VERSION`         | ASCOOS CMS Comments: Ascoos Cms version.
+|  `a-i-ASCOOS-UPDATED`         | ASCOOS CMS Comments: Date Ascoos Cms Updated.
+|  `a-i-created`                | Date Created file.
+|  `a-i-now`                    | Date Now.
+|  `a-i-updated`                | Date Updated file.
+|  `a-i-license`                | License. Supported : AGL , AGL-F, AGL-E, AGL-T, Freeware, MIT, CC BY 4.0, CC BY-SA 4.0, CC BY-NC 4.0, CC BY-NC-SA 4.0, CC BY-ND 4.0, CC BY-NC-ND 4.0, CC0 1.0
+|  `a-i-sinceASCOOS`            | Since for ASCOOS Version.
+|  `a-i-sincePHP`               | Since for PHP Version.
+|  `a-i-class`                  | Class Name.
+|  `a-i-authorSite`             | Author Website.
+|  `a-i-authorEmail`            | Author Email.
+|  `a-i-authorCountry`          | Author Country
+|  `a-i-authorAddress`          | Author Address.
+|  `a-i-authorTel`              | Author Tel Number.
+|  `a-i-authorMobile`           | Author Mobile Number.
+|  `a-i-translatorSite`         | Translator Website.
+|  `a-i-translatorEmail`        | Translator Email.
+|  `a-i-translatorCountry`      | Translator Country
+|  `a-i-translatorAddress`      | TranslatorAddress.
+|  `a-i-translatorTel`          | Translator Tel Number.
+|  `a-i-translatorMobile`       | Translator Mobile Number.
 
 <br>
 
