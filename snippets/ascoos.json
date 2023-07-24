@@ -1,9 +1,153 @@
 {
-  "a - Define the CMS execution variable.": {
-    "prefix": "a-gv-def-run-cms",
-    "description": "Define the CMS execution variable..",
+  "a - Define the ASCOOS CMS execution variable.": {
+    "prefix": "a-g-add-define-run-cms",
+    "description": "Add Define the CMS execution variable.",
     "body": [
-      "defined (\"ALEXSOFT_RUN_CMS\") or die(\"Prohibition of Access.\");"
+      "defined (\"ALEXSOFT_RUN_CMS\") or die(\"Prohibition of Access.\");",
+      " ",
+      "${0:}"      
+    ]
+  },
+  "New Global Constant in ASCOOS CMS": {
+    "prefix": "a-g-new-global-constant",
+    "description": "Add global constant",
+    "body": [
+      "/**",
+      " * @const ${1:CONSTANT} ${2:VALUE}",
+      " * ",      
+      "if (!defined (\"${1:CONSTANT}\")) define(\"${1:CONSTANT}\", \"${2:VALUE}\");",
+      " ",
+      "${0:}"      
+    ]
+  },  
+
+  "New ASCOOS CMS Class": {
+    "prefix": ["a-class", "a-g-new-class"],
+    "description": "Add class.",
+    "body": [
+      "/**",
+      " * @name ${1:Here write the name of the class.}",
+      "${2: * @extends ${3:Here write the name of the class. Put extends class nameEXTENDS CLASS}}",
+      " * ",
+      " * ${4:Description}",
+      " * ",
+      "${5: * @author ${6:AUTHOR}}",
+      "${7: * @link ${8:https://}",
+      " * @created $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND UTC+3",
+      " * @updated ",
+      " * @copyright (c) $CURRENT_YEAR, ${9:AUTHOR or COMPANY}",      
+      " * ", 
+      "${10: * ${11:@static${12: @readonly}}}",
+      " * @version ${13:1.0.0}",
+      " * @since ${14:ASCOOS 1.0.0}",
+      " * @since ${15:PHP 8.0.0}",      
+      " * ",
+      " */",
+      "${11:@static${12: @readonly }}class ${1:Here write the name of the class.}${3: extends ${3: EXTENDS CLASS}} {",
+      " ",
+      "   /** Properties */",
+      " ",
+      " ",
+      "   /** Methods */",
+      " ",
+      " ",
+      "   /**",
+      "    * @method  __construct()",
+      "    * ",
+      "    * ",
+      "    * ",
+      "    * ",
+      "    * ",
+      "    */",
+      "   public function __construct() {",
+      "     /** CODE */",
+      "   }",
+      "} ",      
+      "${0:}"
+    ]
+  },
+
+  "New ASCOOS CMS Class Property [PRIVATE]": {
+    "prefix": "a-g-new-property-private",
+    "description": "Add private property in class.",
+    "body": [
+      "/**",
+      " * @property ${1:TYPE} ${2:\\$PROPERTY}",
+      " * ",
+      " * ${3:Description}",
+      " * ",
+      " * @author ${4:AUTHOR}",
+      " * @link ${5:AUTHOR LINK}",
+      " * @created $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND UTC+3",
+      " * @updated ",
+      " * @copyright (c) $CURRENT_YEAR, ${6:AUTHOR or COMPANY}",      
+      " * ",       
+      " * @access private",           
+      " * @version ${7:1.0.0}",
+      " * @since ${8:ASCOOS 1.0.0}",
+      " * @since ${9:PHP 8.0.0}",      
+      " * ",
+      " */",
+      "private ${1:TYPE} ${2:\\$PROPERTY}${10:=${11:\\$VALUE}};",
+      " ",
+      "${0:}"
+    ]
+  },   
+  "New ASCOOS CMS Class Property [PUBLIC]": {
+    "prefix": "a-g-new-property-public",
+    "description": "Add public property in class.",
+    "body": [
+      "/**",
+      " * @property ${1:TYPE} ${2:\\$PROPERTY}",
+      " * ",
+      " * ${3:Description}",
+      " * ",
+      " * @author ${4:AUTHOR}",
+      " * @link ${5:AUTHOR LINK}",
+      " * @created $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND UTC+3",
+      " * @updated ",
+      " * @copyright (c) $CURRENT_YEAR, ${6:AUTHOR or COMPANY}",      
+      " * ", 
+      " * ${7:@readonly}",          
+      " * @access public",           
+      " * @version ${8:1.0.0}",
+      " * @since ${9:ASCOOS 1.0.0}",
+      " * @since ${10:PHP 8.0.0}",      
+      " * ",
+      " */",
+      "public ${11:readonly} ${1:TYPE} ${2:\\$PROPERTY}${12:=${13:\\$VALUE}};",
+      " ",
+      "${0:}"
+    ]
+  },
+  "New Class Property [public or Protected] ": {
+    "prefix": "a-g-new-class-property-public",
+    "description": "Add public or protected property in class.",
+    "body": [
+      "/**",
+      " * @property ${1:TYPE} ${2:\\$PROPERTY}",
+      " * ",
+      " * ${3:Description}",
+      " * ",
+      " * @author ${4:AUTHOR}",
+      " * @link ${5:AUTHOR LINK}",
+      " * @created $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND UTC+3",
+      " * @updated ",
+      " * @copyright (c) $CURRENT_YEAR, ${6:AUTHOR or COMPANY}",      
+      " * ", 
+      " * ${7:@readonly}",          
+      " * @access public",           
+      " * @version ${8:1.0.0}",
+      " * @since ${9:ASCOOS 1.0.0}",
+      " * @since ${10:PHP 8.0.0}",      
+      " * ",
+      " */",
+      "${11:public|protected|private} ${11:readonly} ${1:TYPE} ${2:\\$PROPERTY}${12:=${13:\\$VALUE}};",
+      " ",
+      "${0:}"
     ]
   }
+  
+
+
 }

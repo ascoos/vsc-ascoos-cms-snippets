@@ -1,1 +1,345 @@
-{" [INS_ADMIN_BLOCK CONST ]": {"body": ["INS_ADMIN_BLOCK"], "description": "Install Block (In Administration - [CAN BE UNINSTALL])", "prefix": "INS_ADMIN_BLOCK"}, "ADMIN_SIDE [ CONST ]": {"body": ["ADMIN_SIDE"], "description": "Contains the Administration (Backend) or User (Frontend) Side of the website.", "prefix": "ADMIN_SIDE"}, "ASCOOS_PROGRAM_NAME [ CONST ]": {"body": ["ASCOOS_PROGRAM_NAME"], "description": "Contains the Ascoos CMS Program Name.", "prefix": "ASCOOS_PROGRAM_NAME"}, "INS_ADMIN_APP [ CONST ]": {"body": ["INS_ADMIN_APP`"], "description": "Install Application (In Administration - [CAN BE UNINSTALL])", "prefix": "INS_ADMIN_APP`"}, "INS_ADMIN_PLUGIN [ CONST ]": {"body": ["INS_ADMIN_PLUGIN"], "description": "Install Plugin (In Administration - [CAN BE UNINSTALL])", "prefix": "INS_ADMIN_PLUGIN"}, "INS_ADMIN_WIDGET [ CONST ]": {"body": ["INS_ADMIN_WIDGET"], "description": "Install Widget (In Administration - [CAN BE UNINSTALL])", "prefix": "INS_ADMIN_WIDGET"}, "INS_BLOCK [ CONST ]": {"body": ["INS_BLOCK"], "description": "Install Block", "prefix": "INS_BLOCK"}, "INS_DEMO [ CONST ]": {"body": ["INS_DEMO"], "description": "Fake Install (For Demo use)", "prefix": "INS_DEMO"}, "INS_NOTHING [ CONST ]": {"body": ["INS_NOTHING"], "description": "NO ACTION", "prefix": "INS_NOTHING"}, "INS_PLUGIN [ CONST ]": {"body": ["INS_PLUGIN"], "description": "Install Plugin", "prefix": "INS_PLUGIN"}, "INS_PLUGIN_ARTICLE [ CONST ]": {"body": ["INS_PLUGIN_ARTICLE"], "description": "Install Plugin (For Articles)", "prefix": "INS_PLUGIN_ARTICLE"}, "INS_PLUGIN_CONTENT [ CONST ]": {"body": ["INS_PLUGIN_CONTENT"], "description": "Install Plugin (For Contents)", "prefix": "INS_PLUGIN_CONTENT"}, "INS_PLUGIN_EDITOR [ CONST ]": {"body": ["INS_PLUGIN_EDITOR"], "description": "Install Plugin (For Editors)", "prefix": "INS_PLUGIN_EDITOR"}, "INS_PLUGIN_EDITOR_BTN [ CONST ]": {"body": ["INS_PLUGIN_EDITOR_BTN"], "description": "Install Plugin (For Editor Buttons)", "prefix": "INS_PLUGIN_EDITOR_BTN"}, "INS_PLUGIN_SEARCH [ CONST ]": {"body": ["INS_PLUGIN_SEARCH"], "description": "Install Plugin (For Search)", "prefix": "INS_PLUGIN_SEARCH"}, "INS_PLUGIN_SYSTEM [ CONST ]": {"body": ["INS_PLUGIN_SYSTEM"], "description": "Install Plugin (For System)", "prefix": "INS_PLUGIN_SYSTEM"}, "INS_PLUGIN_TOOL [ CONST ]": {"body": ["INS_PLUGIN_TOOL"], "description": "Install Plugin (For Tools)", "prefix": "INS_PLUGIN_TOOL"}, "INS_PLUGIN_WIDGET [ CONST ]": {"body": ["INS_PLUGIN_WIDGET"], "description": "Install Plugin (For Widgets)", "prefix": "INS_PLUGIN_WIDGET"}, "INS_SYSTEM [ CONST ]": {"body": ["INS_SYSTEM"], "description": "Installation of ASCOOS CMS system components.", "prefix": "INS_SYSTEM"}, "INS_SYSTEM_APP [ CONST ]": {"body": ["INS_SYSTEM_APP"], "description": "Install System Program (CANNOT UNINSTALL).", "prefix": "INS_SYSTEM_APP"}, "INS_THEME [ CONST ]": {"body": ["INS_THEME"], "description": "Install Theme (Package 3LT Template - [Front, Frontpage, EFP])", "prefix": "INS_THEME"}, "INS_THEME_3LT_EFP [ CONST ]": {"body": ["INS_THEME_3LT_EFP"], "description": "Install Theme (For EFP - Encapsulation Frotnpage)", "prefix": "INS_THEME_3LT_EFP"}, "INS_THEME_3LT_FRONT [ CONST ]": {"body": ["INS_THEME_3LT_FRONT"], "description": "Install Theme (For Front)", "prefix": "INS_THEME_3LT_FRONT"}, "INS_THEME_3LT_FRONTPAGE [ CONST ]": {"body": ["INS_THEME_3LT_FRONTPAGE"], "description": "Install Theme (For Frontpage)", "prefix": "INS_THEME_3LT_FRONTPAGE"}, "INS_THEME_ADMIN_APP [ CONST ]": {"body": ["INS_THEME_ADMIN_APP"], "description": "Install Theme (For Administration Applications)", "prefix": "INS_THEME_ADMIN_APP"}, "INS_THEME_ADMIN_BLOCK [ CONST ]": {"body": ["INS_THEME_ADMIN_BLOCK"], "description": "Install Theme (For Administration Block)", "prefix": "INS_THEME_ADMIN_BLOCK"}, "INS_THEME_ADMIN_DESKTOP [ CONST ]": {"body": ["INS_THEME_ADMIN_DESKTOP"], "description": "Install Theme (For Administration Desktop)", "prefix": "INS_THEME_ADMIN_DESKTOP"}, "INS_THEME_ADMIN_LOGIN [ CONST ]": {"body": ["INS_THEME_ADMIN_LOGIN"], "description": "Install Theme (For Administration Login page)", "prefix": "INS_THEME_ADMIN_LOGIN"}, "INS_THEME_ADMIN_PLUGIN [ CONST ]": {"body": ["INS_THEME_ADMIN_PLUGIN"], "description": "Install Theme (For Administration Plugins)", "prefix": "INS_THEME_ADMIN_PLUGIN"}, "INS_THEME_ADMIN_SET [ CONST ]": {"body": ["INS_THEME_ADMIN_SET"], "description": "Install Full Theme (For Administration)", "prefix": "INS_THEME_ADMIN_SET"}, "INS_THEME_ADMIN_TASKBAR [ CONST ]": {"body": ["INS_THEME_ADMIN_TASKBAR"], "description": "Install Theme (For Administration Desktop Taskbar)", "prefix": "INS_THEME_ADMIN_TASKBAR"}, "INS_THEME_ADMIN_WALLPAPER [ CONST ]": {"body": ["INS_THEME_ADMIN_WALLPAPER"], "description": "Install Wallpaper (In Administration)", "prefix": "INS_THEME_ADMIN_WALLPAPER"}, "INS_THEME_ADMIN_WIDGET [ CONST ]": {"body": ["INS_THEME_ADMIN_WIDGET"], "description": "Install Theme (For Administration Desktop Widgets)", "prefix": "INS_THEME_ADMIN_WIDGET"}, "INS_THEME_ADMIN_WINDOW [ CONST ]": {"body": ["INS_THEME_ADMIN_WINDOW"], "description": "Install Theme (For Administration Desktop Windows)", "prefix": "INS_THEME_ADMIN_WINDOW"}, "INS_THEME_APP [ CONST ]": {"body": ["INS_THEME_APP"], "description": "Install Theme (For Application)", "prefix": "INS_THEME_APP"}, "INS_THEME_BLOCK [ CONST ]": {"body": ["INS_THEME_BLOCK"], "description": "Install Theme (For Block)", "prefix": "INS_THEME_BLOCK"}, "INS_THEME_CONTACT [ CONST ]": {"body": ["INS_THEME_CONTACT"], "description": "Install Theme (For Contact pages)", "prefix": "INS_THEME_CONTACT"}, "INS_THEME_FORM [ CONST ]": {"body": ["INS_THEME_FORM"], "description": "Install Theme (For Forms)", "prefix": "INS_THEME_FORM"}, "INS_THEME_MENU [ CONST ]": {"body": ["INS_THEME_MENU"], "description": "Install Theme (For Menus)", "prefix": "INS_THEME_MENU"}, "INS_THEME_NEWSLETTER` [ CONST ]": {"body": ["INS_THEME_NEWSLETTER`"], "description": "Install Theme (For Newsletter)", "prefix": "INS_THEME_NEWSLETTER`"}, "INS_THEME_PAGERANK [ CONST ]": {"body": ["INS_THEME_PAGERANK"], "description": "Install Theme (For Pageranks)", "prefix": "INS_THEME_PAGERANK"}, "INS_THEME_PLUGIN [ CONST ]": {"body": ["INS_THEME_PLUGIN"], "description": "Install Theme (For Plugin)", "prefix": "INS_THEME_PLUGIN"}, "INS_THEME_PRINT [ CONST ]": {"body": ["INS_THEME_PRINT"], "description": "Install Theme (For Print pages)", "prefix": "INS_THEME_PRINT"}, "INS_THEME_RATE [ CONST ]": {"body": ["INS_THEME_RATE"], "description": "Install Theme (For Rates)", "prefix": "INS_THEME_RATE"}, "INS_THEME_STATE_CONSTRUCTION [ CONST ]": {"body": ["INS_THEME_STATE_CONSTRUCTION"], "description": "Install Theme (For Construction pages)", "prefix": "INS_THEME_STATE_CONSTRUCTION"}, "INS_THEME_STATE_ERROR [ CONST ]": {"body": ["INS_THEME_STATE_ERROR"], "description": "Install Theme (For Error pages)", "prefix": "INS_THEME_STATE_ERROR"}, "INS_THEME_STATE_OFFLINE [ CONST ]": {"body": ["INS_THEME_STATE_OFFLINE"], "description": "Install Theme (For Offline pages)", "prefix": "INS_THEME_STATE_OFFLINE"}, "INS_THEME_TYPOGRAPHY [ CONST ]": {"body": ["INS_THEME_TYPOGRAPHY"], "description": "Install Typography", "prefix": "INS_THEME_TYPOGRAPHY"}, "INS_USER_APP [ CONST ]": {"body": ["INS_USER_APP"], "description": "User program installation (CAN BE UNINSTALL).", "prefix": "INS_USER_APP"}}
+{
+    " [INS_ADMIN_BLOCK CONST ]": {
+        "body": [
+            "INS_ADMIN_BLOCK"
+        ],
+        "description": "Install Block (In Administration - [CAN BE UNINSTALL])",
+        "prefix": "INS_ADMIN_BLOCK"
+    },
+    "ADMIN_SIDE [ CONST ]": {
+        "body": [
+            "ADMIN_SIDE"
+        ],
+        "description": "Contains the Administration (Backend) or User (Frontend) Side of the website.",
+        "prefix": "ADMIN_SIDE"
+    },
+    "ASCOOS_PROGRAM_NAME [ CONST ]": {
+        "body": [
+            "ASCOOS_PROGRAM_NAME"
+        ],
+        "description": "Contains the Ascoos CMS Program Name.",
+        "prefix": "ASCOOS_PROGRAM_NAME"
+    },
+    "INS_ADMIN_APP [ CONST ]": {
+        "body": [
+            "INS_ADMIN_APP`"
+        ],
+        "description": "Install Application (In Administration - [CAN BE UNINSTALL])",
+        "prefix": "INS_ADMIN_APP`"
+    },
+    "INS_ADMIN_PLUGIN [ CONST ]": {
+        "body": [
+            "INS_ADMIN_PLUGIN"
+        ],
+        "description": "Install Plugin (In Administration - [CAN BE UNINSTALL])",
+        "prefix": "INS_ADMIN_PLUGIN"
+    },
+    "INS_ADMIN_WIDGET [ CONST ]": {
+        "body": [
+            "INS_ADMIN_WIDGET"
+        ],
+        "description": "Install Widget (In Administration - [CAN BE UNINSTALL])",
+        "prefix": "INS_ADMIN_WIDGET"
+    },
+    "INS_BLOCK [ CONST ]": {
+        "body": [
+            "INS_BLOCK"
+        ],
+        "description": "Install Block",
+        "prefix": "INS_BLOCK"
+    },
+    "INS_DEMO [ CONST ]": {
+        "body": [
+            "INS_DEMO"
+        ],
+        "description": "Fake Install (For Demo use)",
+        "prefix": "INS_DEMO"
+    },
+    "INS_NOTHING [ CONST ]": {
+        "body": [
+            "INS_NOTHING"
+        ],
+        "description": "NO ACTION",
+        "prefix": "INS_NOTHING"
+    },
+    "INS_PLUGIN [ CONST ]": {
+        "body": [
+            "INS_PLUGIN"
+        ],
+        "description": "Install Plugin",
+        "prefix": "INS_PLUGIN"
+    },
+    "INS_PLUGIN_ARTICLE [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_ARTICLE"
+        ],
+        "description": "Install Plugin (For Articles)",
+        "prefix": "INS_PLUGIN_ARTICLE"
+    },
+    "INS_PLUGIN_CONTENT [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_CONTENT"
+        ],
+        "description": "Install Plugin (For Contents)",
+        "prefix": "INS_PLUGIN_CONTENT"
+    },
+    "INS_PLUGIN_EDITOR [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_EDITOR"
+        ],
+        "description": "Install Plugin (For Editors)",
+        "prefix": "INS_PLUGIN_EDITOR"
+    },
+    "INS_PLUGIN_EDITOR_BTN [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_EDITOR_BTN"
+        ],
+        "description": "Install Plugin (For Editor Buttons)",
+        "prefix": "INS_PLUGIN_EDITOR_BTN"
+    },
+    "INS_PLUGIN_SEARCH [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_SEARCH"
+        ],
+        "description": "Install Plugin (For Search)",
+        "prefix": "INS_PLUGIN_SEARCH"
+    },
+    "INS_PLUGIN_SYSTEM [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_SYSTEM"
+        ],
+        "description": "Install Plugin (For System)",
+        "prefix": "INS_PLUGIN_SYSTEM"
+    },
+    "INS_PLUGIN_TOOL [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_TOOL"
+        ],
+        "description": "Install Plugin (For Tools)",
+        "prefix": "INS_PLUGIN_TOOL"
+    },
+    "INS_PLUGIN_WIDGET [ CONST ]": {
+        "body": [
+            "INS_PLUGIN_WIDGET"
+        ],
+        "description": "Install Plugin (For Widgets)",
+        "prefix": "INS_PLUGIN_WIDGET"
+    },
+    "INS_SYSTEM [ CONST ]": {
+        "body": [
+            "INS_SYSTEM"
+        ],
+        "description": "Installation of ASCOOS CMS system components.",
+        "prefix": "INS_SYSTEM"
+    },
+    "INS_SYSTEM_APP [ CONST ]": {
+        "body": [
+            "INS_SYSTEM_APP"
+        ],
+        "description": "Install System Program (CANNOT UNINSTALL).",
+        "prefix": "INS_SYSTEM_APP"
+    },
+    "INS_THEME [ CONST ]": {
+        "body": [
+            "INS_THEME"
+        ],
+        "description": "Install Theme (Package 3LT Template - [Front, Frontpage, EFP])",
+        "prefix": "INS_THEME"
+    },
+    "INS_THEME_3LT_EFP [ CONST ]": {
+        "body": [
+            "INS_THEME_3LT_EFP"
+        ],
+        "description": "Install Theme (For EFP - Encapsulation Frotnpage)",
+        "prefix": "INS_THEME_3LT_EFP"
+    },
+    "INS_THEME_3LT_FRONT [ CONST ]": {
+        "body": [
+            "INS_THEME_3LT_FRONT"
+        ],
+        "description": "Install Theme (For Front)",
+        "prefix": "INS_THEME_3LT_FRONT"
+    },
+    "INS_THEME_3LT_FRONTPAGE [ CONST ]": {
+        "body": [
+            "INS_THEME_3LT_FRONTPAGE"
+        ],
+        "description": "Install Theme (For Frontpage)",
+        "prefix": "INS_THEME_3LT_FRONTPAGE"
+    },
+    "INS_THEME_ADMIN_APP [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_APP"
+        ],
+        "description": "Install Theme (For Administration Applications)",
+        "prefix": "INS_THEME_ADMIN_APP"
+    },
+    "INS_THEME_ADMIN_BLOCK [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_BLOCK"
+        ],
+        "description": "Install Theme (For Administration Block)",
+        "prefix": "INS_THEME_ADMIN_BLOCK"
+    },
+    "INS_THEME_ADMIN_DESKTOP [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_DESKTOP"
+        ],
+        "description": "Install Theme (For Administration Desktop)",
+        "prefix": "INS_THEME_ADMIN_DESKTOP"
+    },
+    "INS_THEME_ADMIN_LOGIN [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_LOGIN"
+        ],
+        "description": "Install Theme (For Administration Login page)",
+        "prefix": "INS_THEME_ADMIN_LOGIN"
+    },
+    "INS_THEME_ADMIN_PLUGIN [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_PLUGIN"
+        ],
+        "description": "Install Theme (For Administration Plugins)",
+        "prefix": "INS_THEME_ADMIN_PLUGIN"
+    },
+    "INS_THEME_ADMIN_SET [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_SET"
+        ],
+        "description": "Install Full Theme (For Administration)",
+        "prefix": "INS_THEME_ADMIN_SET"
+    },
+    "INS_THEME_ADMIN_TASKBAR [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_TASKBAR"
+        ],
+        "description": "Install Theme (For Administration Desktop Taskbar)",
+        "prefix": "INS_THEME_ADMIN_TASKBAR"
+    },
+    "INS_THEME_ADMIN_WALLPAPER [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_WALLPAPER"
+        ],
+        "description": "Install Wallpaper (In Administration)",
+        "prefix": "INS_THEME_ADMIN_WALLPAPER"
+    },
+    "INS_THEME_ADMIN_WIDGET [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_WIDGET"
+        ],
+        "description": "Install Theme (For Administration Desktop Widgets)",
+        "prefix": "INS_THEME_ADMIN_WIDGET"
+    },
+    "INS_THEME_ADMIN_WINDOW [ CONST ]": {
+        "body": [
+            "INS_THEME_ADMIN_WINDOW"
+        ],
+        "description": "Install Theme (For Administration Desktop Windows)",
+        "prefix": "INS_THEME_ADMIN_WINDOW"
+    },
+    "INS_THEME_APP [ CONST ]": {
+        "body": [
+            "INS_THEME_APP"
+        ],
+        "description": "Install Theme (For Application)",
+        "prefix": "INS_THEME_APP"
+    },
+    "INS_THEME_BLOCK [ CONST ]": {
+        "body": [
+            "INS_THEME_BLOCK"
+        ],
+        "description": "Install Theme (For Block)",
+        "prefix": "INS_THEME_BLOCK"
+    },
+    "INS_THEME_CONTACT [ CONST ]": {
+        "body": [
+            "INS_THEME_CONTACT"
+        ],
+        "description": "Install Theme (For Contact pages)",
+        "prefix": "INS_THEME_CONTACT"
+    },
+    "INS_THEME_FORM [ CONST ]": {
+        "body": [
+            "INS_THEME_FORM"
+        ],
+        "description": "Install Theme (For Forms)",
+        "prefix": "INS_THEME_FORM"
+    },
+    "INS_THEME_MENU [ CONST ]": {
+        "body": [
+            "INS_THEME_MENU"
+        ],
+        "description": "Install Theme (For Menus)",
+        "prefix": "INS_THEME_MENU"
+    },
+    "INS_THEME_NEWSLETTER` [ CONST ]": {
+        "body": [
+            "INS_THEME_NEWSLETTER`"
+        ],
+        "description": "Install Theme (For Newsletter)",
+        "prefix": "INS_THEME_NEWSLETTER`"
+    },
+    "INS_THEME_PAGERANK [ CONST ]": {
+        "body": [
+            "INS_THEME_PAGERANK"
+        ],
+        "description": "Install Theme (For Pageranks)",
+        "prefix": "INS_THEME_PAGERANK"
+    },
+    "INS_THEME_PLUGIN [ CONST ]": {
+        "body": [
+            "INS_THEME_PLUGIN"
+        ],
+        "description": "Install Theme (For Plugin)",
+        "prefix": "INS_THEME_PLUGIN"
+    },
+    "INS_THEME_PRINT [ CONST ]": {
+        "body": [
+            "INS_THEME_PRINT"
+        ],
+        "description": "Install Theme (For Print pages)",
+        "prefix": "INS_THEME_PRINT"
+    },
+    "INS_THEME_RATE [ CONST ]": {
+        "body": [
+            "INS_THEME_RATE"
+        ],
+        "description": "Install Theme (For Rates)",
+        "prefix": "INS_THEME_RATE"
+    },
+    "INS_THEME_STATE_CONSTRUCTION [ CONST ]": {
+        "body": [
+            "INS_THEME_STATE_CONSTRUCTION"
+        ],
+        "description": "Install Theme (For Construction pages)",
+        "prefix": "INS_THEME_STATE_CONSTRUCTION"
+    },
+    "INS_THEME_STATE_ERROR [ CONST ]": {
+        "body": [
+            "INS_THEME_STATE_ERROR"
+        ],
+        "description": "Install Theme (For Error pages)",
+        "prefix": "INS_THEME_STATE_ERROR"
+    },
+    "INS_THEME_STATE_OFFLINE [ CONST ]": {
+        "body": [
+            "INS_THEME_STATE_OFFLINE"
+        ],
+        "description": "Install Theme (For Offline pages)",
+        "prefix": "INS_THEME_STATE_OFFLINE"
+    },
+    "INS_THEME_TYPOGRAPHY [ CONST ]": {
+        "body": [
+            "INS_THEME_TYPOGRAPHY"
+        ],
+        "description": "Install Typography",
+        "prefix": "INS_THEME_TYPOGRAPHY"
+    },
+    "INS_USER_APP [ CONST ]": {
+        "body": [
+            "INS_USER_APP"
+        ],
+        "description": "User program installation (CAN BE UNINSTALL).",
+        "prefix": "INS_USER_APP"
+    }
+}

@@ -1,0 +1,192 @@
+{
+  "setTitle [FUNC] [$app]": {
+    "prefix": "$app->setTitle($title)",
+    "description": "Set Website title.",
+    "body": [
+      "\\$app->setTitle('${1:\\$title}');${0:}"
+    ]
+  },
+
+
+
+
+
+
+
+
+  "setPackageFile [FUNC] [$objInstaller]": {
+    "prefix": "$objInstaller->setPackageFile($pathPackage)",
+    "description": "We set the compressed installation package containing the files of the extension to be installed",
+    "body": [
+	  "// We set the compressed installation package containing the files of the extension to be installed",
+	  "\\$objInstaller->setPackageFile('${1:pathPackage}');${0:}"
+    ]
+  },  
+ 
+  "createPath [FUNC] [$objInstaller]": {
+    "prefix": "$objInstaller->createPath()",
+    "description": "Creates the given installation path",
+    "body": [
+      "// Creates the given installation path",
+      "\\$objInstaller->createPath();${0:}"
+    ]
+  },  
+
+  "removePath [$objInstaller]": {
+    "prefix": "$objInstaller->removePath()",
+    "description": "Delete the installation path",
+    "body": [
+      "// Delete the installation path",
+      "\\$objInstaller->removePath();${0:}"
+    ]
+  }, 
+
+  "isInstalled [$objInstaller]": {
+    "prefix": "$objInstaller->isInstalled()",
+    "description": "Returns a reasonable value. TRUE = The path exists, FALSE = Does not exist",
+    "body": [
+      "// Returns a reasonable value. TRUE = The path exists, FALSE = Does not exist",
+      "\\$objInstaller->isInstalled();${0:}"
+    ]
+  },   
+
+  "setInstallFile [$objInstaller]": {
+    "prefix": "$objInstaller->setInstallFile($pathInstallFile)",
+    "description": "We define and load the installation file.",
+    "body": [
+	  "// We define and load the installation file.",
+	  "\\$objInstaller->setInstallFile('${1:pathInstallFile}');${0:}"
+    ]
+  },
+
+  "setInstallIdentifierFile [$objInstaller]": {
+    "prefix": "$objInstaller->setInstallIdentifierFile($pathInstallFile)",
+    "description": "Set and load installation Identifier file.",
+    "body": [
+	  "// Set and load installation Identifier file.",
+	  "\\$objInstaller->setInstallIdentifierrFile('${1:pathInstallFile}');${0:}"
+    ]
+  },
+ 
+  "setExtension [$objInstaller]": {
+    "prefix": "$objInstaller->setExtension(string $extname, int $type = INS_NOTHING, string $group='')",
+    "description": "We set the extension that will manage the installation object.",
+    "body": [
+        "/**",
+        " * We set the extension that will manage the installation object",
+        " *",
+        " * @param string  \\$extname     -- The physical name of the extension.",
+        " * @param int     \\$type = INS_NOTHING  -- The installation type",
+        " * @param string  \\$group = ''  -- (Only if he wants a special mention. Contains e.g. the group of the plugins, widgets, etc.)",
+        " */",
+        "\\$objInstaller->setExtension('${6:string \\$extname}'${5:${4:, ${3:int \\$type = INS_NOTHING}}${2:, '${1:string \\$group}'}});${0:}"
+    ]
+  },
+
+  "addSQL [$objInstaller]": {
+    "prefix": "$objInstaller->addSQL($sql)",
+    "description": "Executes an insert query to the database",
+    "body": [
+      "// Executes an insert query to the database",
+      "\\$objInstaller->addSQL('${1:sql}');${0:}"]
+  },  
+
+  "installData [$objInstaller]": {
+    "prefix": "$objInstaller->installData()",
+    "description": "We install the components of the extension.",
+    "body": [
+      "// We install the components of the extension.",
+      "\\$objInstaller->installData();${0:}"]
+  }, 
+
+
+  "tempExtracts [$objInstaller]": {
+    "prefix": "$objInstaller->tempExtracts()",
+    "description": "extracts the installation package to a temporary cache directory for testing",
+    "body": ["\\$objInstaller->tempExtracts();${0:}"]
+  },  
+  
+  "deleteTempData [$objInstaller]": {
+    "prefix": "$objInstaller->deleteTempData()",
+    "description": "Delete temporary files",
+    "body": ["\\$objInstaller->deleteTempData();${0:}"]
+  },   
+
+  "deletePackage [$objInstaller]": {
+    "prefix": "$objInstaller->deletePackage()",
+    "description": "Delete the installation package",
+    "body": ["\\$objInstaller->deletePackage();${0:}"]
+  },   
+
+  "deleteInstallFile [$objInstaller]": {
+    "prefix": "$objInstaller->deleteInstallFile()",
+    "description": "Delete the installation package",
+    "body": ["\\$objInstaller->deleteInstallFile();${0:}"]
+  },    
+
+  "extractPackage [$objInstaller]": {
+    "prefix": "$objInstaller->extractPackage()",
+    "description": "Extract the installation package to the appropriate system directory.",
+    "body": ["\\$objInstaller->extractPackage();${0:}"]
+  },  
+  
+  
+  "extractThemes [$objInstaller]": {
+    "prefix": "$objInstaller->extractThemes($extraTheme='')",
+    "description": "We move the internal folder with the themes to the final folder.",
+    "body": ["\\$objInstaller->extractThemes('${1:\\$extraTheme}');${0:}"]
+  }, 
+  
+  "getPosition [$objInstaller]": {
+    "prefix": "$objInstaller->getPosition($position='left')",
+    "description": "We get the ID of the position where the installed extension will appear.",
+    "body": ["\\$objInstaller->getPosition('${1:\\$position}');${0:}"]
+  },
+
+  "addPosition [$objInstaller]": {
+    "prefix": "$objInstaller->addPosition($position, $type=0, $theme='', $frontpage='', $efp='', $comment='')",
+    "description": "We add a display location for the extension we install. This is useful if we want to have unique display positions for each of our extensions.",
+    "body": [
+      "\\$objInstaller->addPosition('${16:\\$position}'${15: ${14:${13:, ${12:\\$type}}${11:${10:, '${9:\\$theme}'}${8:${7:, '${6:\\$frontpage}'}${5: ${4:, '${3:\\$efp}'}${2:, '${1:\\$comment}'}}}}}} );${0:}"
+    ]
+  },
+
+ 
+  "getOrderPosition [$objInstaller]": {
+    "prefix": "$objInstaller->getOrderPosition($position=NULL, $table='blocks')",
+    "description": "We take the sort order for the new extension based on the display position.",
+    "body": [
+        "\\$objInstaller->getOrderPosition(${4:, ${3:\\$position}} ${2:, '${1:\\$table}'} });${0:}"
+    ]
+  },
+ 
+  "existExtension [$objInstaller]": {
+    "prefix": "$objInstaller->existExtension($extension, $position='')",
+    "description": "We check if the extension exists in the extension registry",
+    "body": [
+        "\\$objInstaller->existExtension(${3:\\$extension}}${2:, '${1:\\$position}'}});${0:}"
+    ]
+  },
+  "afterSetParams [$objInstaller]": {
+    "prefix": "$objInstaller->afterSetParams($setParams=false)",
+    "description": "We declare whether after installation, the configuration of the installed extension will be performed.",
+    "body": [
+        "\\$objInstaller->afterSetParams(${1:\\$setParams});${0:}"
+    ]
+  },
+  "resetInstall [$objInstaller]": {
+    "prefix": "$objInstaller->resetInstall()",
+    "description": "Resets the default values of the properties of the installation object.",
+    "body": ["\\$objInstaller->resetInstall();${0:}"]
+  }, 
+  "cancelInstallation [$objInstaller]": {
+    "prefix": "$objInstaller->cancelInstallation()",
+    "description": "Cancels the installation process, removing all actions the installer has taken so far.",
+    "body": ["\\$objInstaller->cancelInstallation();${0:}"]
+  },
+  "clear [$objInstaller]": {
+    "prefix": "$objInstaller->clear()",
+    "description": "Deletes the installed package, the installation file and resets the installation parameters to their default values.",
+    "body": ["\\$objInstaller->clear();${0:}"]
+  }      
+}
