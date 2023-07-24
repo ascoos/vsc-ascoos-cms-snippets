@@ -38,7 +38,7 @@ While it should not override any files during this process, I'm not giving any g
 
 ## Download
 
-[VSIX Package](https://dl.ascoos.com/vscode/ascoos-cms/vsc-ascoos-cms-snippets.vsix)
+[Official Doawnload site](https://dl.ascoos.com/vscode/vsc-ascoos-cms-snippets.vsix)
 
 <br>
 
